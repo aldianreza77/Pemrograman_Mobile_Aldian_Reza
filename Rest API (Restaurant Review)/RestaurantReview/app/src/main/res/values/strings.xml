@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RestaurantReview</string>
+
+
+    <string name="title">RestaurantReview</string>
+    <string name="description">RestaurantReview</string>
+    <string name="review">RestaurantReview</string>
+    <string name="write_your_review">RestaurantReview</string>
+    <string name="send">RestaurantReview</string>
+</resources>

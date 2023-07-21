@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".riwayat_pendidikan">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageTop"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:srcCompat ="@drawable/ic_top"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:flow_horizontalBias="0.0"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="137dp"
+        android:layout_height="164dp"
+        android:src="@drawable/ic_aldi"
+        app:layout_constraintBottom_toBottomOf="@+id/imageTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageTop"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#fff"
+        android:paddingBottom="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Pendidikan"
+        app:layout_constraintStart_toStartOf="@id/imgPhoto"
+        app:layout_constraintEnd_toEndOf="@id/imgPhoto"
+        app:layout_constraintBottom_toBottomOf="@id/imgPhoto"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textName"
+        >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_btn"
+        android:drawableLeft="@drawable/ic1"
+        android:paddingStart="20dp"
+        android:text="MI. TARBIYATUSSHIBYAN"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:drawablePadding="20dp"
+        android:elevation="3dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_btn"
+        android:drawableLeft="@drawable/ic1"
+        android:paddingStart="20dp"
+        android:text="MTs. Mathla'ul Anwar)"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:drawablePadding="20dp"
+        android:elevation="3dp" />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_btn"
+        android:drawableLeft="@drawable/ic1"
+        android:paddingStart="20dp"
+        android:text="SMA Mathla'ul Anwar)"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:drawablePadding="20dp"
+        android:elevation="3dp" />
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_btn"
+        android:drawableLeft="@drawable/ic1"
+        android:paddingStart="20dp"
+        android:text="Universitas Pelita Bangsa (Semeter 6)"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:drawablePadding="20dp"
+        android:elevation="3dp" />
+
+
+    </LinearLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

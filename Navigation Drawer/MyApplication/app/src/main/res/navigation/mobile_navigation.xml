@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.myapplication.CartFragment"
+        android:label="@string/menu_chart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.myapplication.profile"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_chart"
+        android:name="com.example.myapplication.CartFragment"
+        android:label="@string/menu_chart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/nav_pengalaman"
+        android:name="com.example.myapplication.pengalaman_kerja"
+        android:label="@string/pengalaman"
+        tools:layout="@layout/fragment_pengalaman_kerja" />
+    <fragment
+        android:id="@+id/nav_riwayat"
+        android:name="com.example.myapplication.riwayat_pendidikan"
+        android:label="@string/riwayat"
+        tools:layout="@layout/fragment_riwayat_pendidikan" />
+
+</navigation>
